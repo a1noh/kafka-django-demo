@@ -1,6 +1,7 @@
 ### to run the kafka enviornment
-docker-compose up
+docker-compose up -d
 ### to run the django app
+cd myproject
 python manage.py runserver 
 ### to run the kafka 
 docker-compose exec kafka bash 
